@@ -15,3 +15,4 @@ for k,v in days.items():
 month, day, year = map(int,input().split())
 res1 = calendar.day_name[calendar.weekday(year,month,day)].upper()
 print(res1)
+'''EOF'''
