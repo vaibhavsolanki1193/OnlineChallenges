@@ -10,3 +10,4 @@ def func(nums):
     return sum(x*x for x in nums) % M
 
 print(max(list(map(func, possible_combination))))
+
