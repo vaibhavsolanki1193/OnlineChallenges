@@ -1,8 +1,8 @@
-m, x = int(input().split())
-print(m)
-print(x)
+n, x = map(int, input().split()) 
 
-for i in range(m):
-    marks = []
-    marks = int(input().split())
-    print(marks)
+sheet = []
+for _ in range(x):
+    sheet.append(map(float,input().split()))
+
+for i in zip(*sheet): 
+    print( sum(i)/len(i) )
